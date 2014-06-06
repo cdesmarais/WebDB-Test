@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfFileDetails xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <FileDetails>
-    <sPath>..\..\_DBWebCommon\ConsumerWeb\WebDB\StoredProcedures\MigrationProcs</sPath>
-    <sComment>updated procs for migration</sComment>
+    <sPath>..\..\StoredProcedures\Common</sPath>
+    <sComment>Common/Consumer Site procs</sComment>
     <dbType>WebDB</dbType>
     <bLogOnly>false</bLogOnly>
     <bForUS>true</bForUS>
