@@ -1,0 +1,21 @@
+IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = object_id(N'[dbo].[JobWebDbGetAccounts]') and OBJECTPROPERTY(id, N'IsProcedure') = 1) 
+	DROP PROCEDURE [dbo].[JobWebDbGetAccounts]
+GO
+
+CREATE PROCEDURE [dbo].[JobWebDbGetAccounts] 
+AS
+
+SET NOCOUNT ON
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+
+SELECT	 
+	 CAST(R.RID AS NVARCHAR(50)) AS WEB_DB_ID
+	,CAST(R.RestaurantType AS NVARCHAR(50)) AS RESTAURANT_TYPE_CODE
+	,CAST(TZ.Code AS NVARCHAR(50))  AS TIME_ZONE_CODE
+FROM dbo.Restaurant AS R 
+	INNER JOIN dbo.TimeZone AS TZ ON TZ.TZID = R.TZID
+GO
+
+GRANT EXECUTE ON [dbo].[JobWebDbGetAccounts] TO [ExecuteOnlyRole] 
+GO
+
