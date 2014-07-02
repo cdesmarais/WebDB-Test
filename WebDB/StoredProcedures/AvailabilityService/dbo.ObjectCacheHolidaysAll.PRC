@@ -11,7 +11,7 @@ CREATE PROCEDURE dbo.ObjectCacheHolidaysAll
 AS
 SET NOCOUNT ON
 SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
-
+return 0
 SELECT		hs.HolidayDate as Holiday_Date, 
 			SuppressDIP,
 			coalesce(CountryID,'ALL') as  CountryID
