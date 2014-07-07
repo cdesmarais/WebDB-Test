@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfFileDetails xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ArrayOfFileDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <FileDetails>
-    <sPath>..\ConsumerWeb\WebDB\Scripts\builds\DummyScript.sql</sPath>
+    <sPath>..\WebDB\Scripts\builds\DummyScript.sql</sPath>
     <sComment>Placeholder</sComment>
     <dbType>WebDB</dbType>
     <bLogOnly>false</bLogOnly>
@@ -11,8 +11,8 @@
     <bIncludeStoredProcs>false</bIncludeStoredProcs>
   </FileDetails>
   <FileDetails>
-    <sPath>..\ConsumerWeb\WebDB\Scripts\builds\2014R11_email_add_payment_tag.sql</sPath>
-    <sComment>Add new [PaymentText] tag to MakeReso</sComment>
+    <sPath>..\WebDB\StoredProcedures\RestaurantAndLocationImporter\dbo.RestaurantImporter_GetAllRestaurantDetails.PRC</sPath>
+    <sComment>Restaurant max advance days</sComment>
     <dbType>WebDB</dbType>
     <bLogOnly>false</bLogOnly>
     <bForUS>true</bForUS>
@@ -21,8 +21,8 @@
     <bIncludeStoredProcs>false</bIncludeStoredProcs>
   </FileDetails>
   <FileDetails>
-    <sPath>..\ConsumerWeb\WebDB\Scripts\builds\2014R11_new_style_confirmation_email.sql</sPath>
-    <sComment>New design confirmation email (based on make reg)</sComment>
+    <sPath>..\WebDB\StoredProcedures\RestaurantAndLocationImporter\dbo.RestaurantImporter_GetAllRestaurantsCustomMessages.PRC</sPath>
+    <sComment>Get restaurants custom day messages</sComment>
     <dbType>WebDB</dbType>
     <bLogOnly>false</bLogOnly>
     <bForUS>true</bForUS>
