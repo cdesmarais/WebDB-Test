@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfFileDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <FileDetails>
-    <sPath>..\WebDB\Scripts\builds\DummyScript.sql</sPath>
+    <sPath>..\..\WebDB\Scripts\builds\DummyScript.sql</sPath>
     <sComment>Placeholder</sComment>
     <dbType>WebDB</dbType>
     <bLogOnly>false</bLogOnly>
@@ -11,7 +11,7 @@
     <bIncludeStoredProcs>false</bIncludeStoredProcs>
   </FileDetails>
   <FileDetails>
-    <sPath>..\WebDB\StoredProcedures\RestaurantAndLocationImporter\dbo.RestaurantImporter_GetAllRestaurantDetails.PRC</sPath>
+    <sPath>..\..\WebDB\StoredProcedures\RestaurantAndLocationImporter\dbo.RestaurantImporter_GetAllRestaurantDetails.PRC</sPath>
     <sComment>Restaurant max advance days</sComment>
     <dbType>WebDB</dbType>
     <bLogOnly>false</bLogOnly>
@@ -21,7 +21,7 @@
     <bIncludeStoredProcs>false</bIncludeStoredProcs>
   </FileDetails>
   <FileDetails>
-    <sPath>..\WebDB\StoredProcedures\RestaurantAndLocationImporter\dbo.RestaurantImporter_GetAllRestaurantsCustomMessages.PRC</sPath>
+    <sPath>..\..\WebDB\StoredProcedures\RestaurantAndLocationImporter\dbo.RestaurantImporter_GetAllRestaurantsCustomMessages.PRC</sPath>
     <sComment>Get restaurants custom day messages</sComment>
     <dbType>WebDB</dbType>
     <bLogOnly>false</bLogOnly>
